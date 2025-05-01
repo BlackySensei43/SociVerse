@@ -1,4 +1,4 @@
-## SociVerse - Social Connection Platform
+# SociVerse - Social Connection Platform
 
 ## Overview
 
