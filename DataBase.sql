@@ -1,10 +1,5 @@
 -- phpMyAdmin SQL Dump
 -- version 4.9.0.1
--- https://www.phpmyadmin.net/
---
--- Host: sql300.infinityfree.com
--- Generation Time: Apr 01, 2025 at 02:47 PM
--- Server version: 10.6.19-MariaDB
 -- PHP Version: 7.2.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -17,10 +12,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `if0_38506745_SociVerse`
---
 
 -- --------------------------------------------------------
 
@@ -61,10 +52,6 @@ CREATE TABLE `Followers` (
   `follower_id` int(11) NOT NULL,
   `created_at` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `Followers`
---
 
 -- --------------------------------------------------------
 
@@ -128,10 +115,6 @@ CREATE TABLE `users` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 --
--- Indexes for dumped tables
---
-
---
 -- Indexes for table `Comments`
 --
 ALTER TABLE `Comments`
@@ -186,10 +169,6 @@ ALTER TABLE `users`
   ADD UNIQUE KEY `username` (`username`),
   ADD UNIQUE KEY `email` (`email`),
   ADD KEY `username_index` (`username`);
-
---
--- AUTO_INCREMENT for dumped tables
---
 
 --
 -- AUTO_INCREMENT for table `Comments`
