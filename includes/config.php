@@ -5,10 +5,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // إعدادات قاعدة البيانات
-$host = "localhost";
-$user = "root";
-$pass = "root";
-$db = "SociVerse";
+$host = "";
+$user = "";
+$pass = "";
+$db = "";
 
 $conn = new mysqli($host, $user, $pass, $db, 3306);
 
