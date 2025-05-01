@@ -42,4 +42,8 @@ SociVerse is a modern, Arabic-first social networking platform that enables user
 
 https://sociverse.great-site.net
 
+## License
+
+See the [LICENSE](LICENSE) file for details. 
+
 Copyright (c) 2024 SociVerse
